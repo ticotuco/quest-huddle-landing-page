@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.header {
+    padding: 1rem 0;
+}
+
+.header img {
+    width: 15rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 4rem;
+}
+
+main .info {
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 40%;
+    padding-top: 3.5rem;
+}
+
+main .info h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-right: 50px;
+}
+
+main .info p {
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+main .info a {
+    background-color: #fffeff;
+    color: hsl(257, 40%, 49%);
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 8px #4d3d76;
+    transition: 0.2s;
+}
+
+main .info a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fffeff;
+}
+
+footer .social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .social a {
+    margin: 0.5rem;
+}
+
+footer .social li {
+    width: 2rem;
+    height: 2rem;
+    padding: 1.2rem;
+    border: #fff 1px solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+footer .social li i{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social li:hover {
+    border-color: hsl(300, 69%, 71%);
+}
+
+footer .social li i:hover {
+    color: hsl(300, 69%, 71%);
+}

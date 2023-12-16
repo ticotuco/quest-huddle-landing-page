@@ -1,0 +1,58 @@
+@media(max-width: 375px) {
+    body {
+        background: #674BB1 url(../images/bg-mobile.svg) no-repeat;
+    }
+
+    .flex-container {
+       padding: 2.5% 9%;
+    }
+
+    .header img {
+        width: 8rem;
+    }
+
+    main {
+        flex-direction: column;
+        padding-top: 2rem;
+        align-items: center;
+
+    }
+
+    main .info {
+        align-self: center;
+        max-width: 100%;
+        text-align: center;
+        padding-top: 0;
+        align-items: center;
+    }
+
+    main .info h1 {
+        font-size: 1.7rem;
+        padding: 0 0.6rem;
+        margin: 0 0 1rem;
+    }
+
+    main .info a {
+        font-size: 0.8rem;
+        padding: 0.8rem 5rem;
+    }
+
+    footer .social {
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    footer .social li {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 1rem;
+    }
+
+    footer .social a {
+        margin: 0.4rem;
+    }
+
+    footer .social li a i {
+        font-size: 0.8rem;
+    }
+}
